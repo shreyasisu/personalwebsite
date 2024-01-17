@@ -271,7 +271,7 @@ footer p{
 .experience-sub-title {
     color: rgb(255, 255, 255);
     font-weight: 600;
-    font-size: 1.75rem;
+    font-size: 40px;
     margin-bottom: 2rem;
 }
 
@@ -279,8 +279,7 @@ footer p{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 100%;
-    max-width: 1000px;
+    max-width: 1200px;
 }
 
 .article-container {
@@ -304,6 +303,7 @@ article{
     width: 10rem;
     justify-content: space-around;
     gap: .5rem;
+    font-size: 30px;
 }
 .details-containers{
     padding: 1.5rem;
@@ -318,7 +318,7 @@ article{
     display: flex; /* or display: grid; */
     justify-content: space-between; /* Adjust as needed */
     gap: 2rem;
-    margin-bottom: 2rem;
+
     margin-top: 2rem;
 }
 .section__text__p1 {
@@ -330,24 +330,23 @@ article{
 
 }
 .left{
-    width: 50%;
+    width: 48%;
 }
 .right{
-    width: 50%;
+    width: 48%;
 }
 
-.title-skill{
-    font-size: 3rem;
-    text-align: center;
-    margin-bottom: 20px;
-}
 .skills {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: center; /* Adjust as needed */
+    padding-top: 5rem;
 }
-
+.title-skill{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
 
 
 
